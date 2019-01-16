@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var drawigView: DrawingImage!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
 
+    func numberDrawn(_ image: UIImage ) {
+    
+    }
 }
 

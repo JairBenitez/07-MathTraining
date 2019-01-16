@@ -63,10 +63,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="0j9-7X-eRh"/>
+                    <connections>
+                        <outlet property="drawigView" destination="8WH-wM-5sq" id="XWW-my-tIA"/>
+                        <outlet property="tableView" destination="8aL-42-EBv" id="BKo-6n-7zK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079.2" y="127.83251231527095"/>
+            <point key="canvasLocation" x="1137" y="777"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aQU-Rj-QxY">
