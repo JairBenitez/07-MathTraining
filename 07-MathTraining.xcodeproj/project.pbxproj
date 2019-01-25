@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5899F421F1775E008CB5CF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5899F321F1775E008CB5CF /* Question.swift */; };
+		4D5899F621F17D5F008CB5CF /* QuestionsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5899F521F17D5F008CB5CF /* QuestionsFactory.swift */; };
 		4D9E100221DA96CD002359D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E100121DA96CD002359D2 /* AppDelegate.swift */; };
 		4D9E100421DA96CD002359D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E100321DA96CD002359D2 /* ViewController.swift */; };
 		4D9E100721DA96CD002359D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E100521DA96CD002359D2 /* Main.storyboard */; };
 		4D9E100921DA96D0002359D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E100821DA96D0002359D2 /* Assets.xcassets */; };
 		4D9E100C21DA96D0002359D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E100A21DA96D0002359D2 /* LaunchScreen.storyboard */; };
 		4D9E101C21DAAD11002359D2 /* DrawingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E101B21DAAD11002359D2 /* DrawingImage.swift */; };
+		4DC2C15421F7CDD5001F162E /* MnistModel.mimodel in Resources */ = {isa = PBXBuildFile; fileRef = 4DC2C15321F7CDD5001F162E /* MnistModel.mimodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D5899F321F1775E008CB5CF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		4D5899F521F17D5F008CB5CF /* QuestionsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsFactory.swift; sourceTree = "<group>"; };
 		4D9E0FFE21DA96CD002359D2 /* 07-MathTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-MathTraining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9E100121DA96CD002359D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D9E100321DA96CD002359D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		4D9E100B21DA96D0002359D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D9E100D21DA96D0002359D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9E101B21DAAD11002359D2 /* DrawingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingImage.swift; sourceTree = "<group>"; };
+		4DC2C15321F7CDD5001F162E /* MnistModel.mimodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = MnistModel.mimodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5899F221F1773F008CB5CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D5899F321F1775E008CB5CF /* Question.swift */,
+				4D5899F521F17D5F008CB5CF /* QuestionsFactory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4D9E0FF521DA96CD002359D2 = {
 			isa = PBXGroup;
 			children = (
@@ -57,18 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				4D9E101921DAAA86002359D2 /* Controller */,
-				4D9E101721DAAA6F002359D2 /* Model */,
+				4D5899F221F1773F008CB5CF /* Models */,
 				4D9E101821DAAA7E002359D2 /* View */,
 				4D9E101A21DAAA9E002359D2 /* Supporting Files */,
 			);
 			path = "07-MathTraining";
-			sourceTree = "<group>";
-		};
-		4D9E101721DAAA6F002359D2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		4D9E101821DAAA7E002359D2 /* View */ = {
@@ -93,6 +101,7 @@
 		4D9E101A21DAAA9E002359D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4DC2C15321F7CDD5001F162E /* MnistModel.mimodel */,
 				4D9E100821DA96D0002359D2 /* Assets.xcassets */,
 				4D9E100D21DA96D0002359D2 /* Info.plist */,
 			);
@@ -160,6 +169,7 @@
 				4D9E100C21DA96D0002359D2 /* LaunchScreen.storyboard in Resources */,
 				4D9E100921DA96D0002359D2 /* Assets.xcassets in Resources */,
 				4D9E100721DA96CD002359D2 /* Main.storyboard in Resources */,
+				4DC2C15421F7CDD5001F162E /* MnistModel.mimodel in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9E100421DA96CD002359D2 /* ViewController.swift in Sources */,
+				4D5899F621F17D5F008CB5CF /* QuestionsFactory.swift in Sources */,
+				4D5899F421F1775E008CB5CF /* Question.swift in Sources */,
 				4D9E101C21DAAD11002359D2 /* DrawingImage.swift in Sources */,
 				4D9E100221DA96CD002359D2 /* AppDelegate.swift in Sources */,
 			);
